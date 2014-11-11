@@ -9,7 +9,7 @@ int main() {
 	
 	while(consulta=='s') {
 		printf("Dòna la següent dada: ");
-		scanf("%f",&nou_valor);
+		scanf("%s",&nou_valor);
 		suma=suma+nou_valor;
 		numero_repeticions=numero_repeticions+1;
 		printf("Vols continuar (s/n): ");
